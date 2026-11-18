@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# TRAVORA
 
-# Run and deploy your AI Studio app
+### Travel More, Spend Less, Give More.
 
-This contains everything you need to run your app locally.
+## About Travora
 
-View your app in AI Studio: https://ai.studio/apps/fb4df490-aa40-4387-a90a-f6dca1eec887
+**Travora** adalah platform perjalanan ramah lingkungan yang menghubungkan traveler dengan pemilik penginapan melalui sistem work exchange atau pertukaran jasa.
 
-## Run Locally
+Travora memberikan kesempatan kepada traveler untuk menjelajahi berbagai destinasi dengan biaya lebih terjangkau, bahkan mendapatkan penginapan gratis dengan menawarkan bantuan atau keterampilan kepada pemilik penginapan.
 
-**Prerequisites:**  Node.js
+Melalui Travora, pengguna dapat menemukan destinasi wisata, menjelajahi berbagai pilihan penginapan, dan mendapatkan kesempatan menginap dengan membantu operasional penginapan sesuai kesepakatan.
 
+Travora menciptakan hubungan yang saling menguntungkan antara traveler dan pemilik penginapan. Lebih dari sekadar perjalanan, Travora mengajak setiap orang untuk menjelajahi dunia dengan cara yang lebih bertanggung jawab, bermakna, dan berkelanjutan.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+**Explore Destinations** — Menjelajahi berbagai destinasi wisata.
+**Find Accommodations** — Menemukan berbagai pilihan penginapan.
+**Work Exchange** — Mendapatkan kesempatan menginap melalui pertukaran jasa.
+**Sustainable Travel** — Mendukung perjalanan yang lebih ramah lingkungan dan berkelanjutan.
+
+## Tech Stack
+
+React.js
+Vite
+JavaScript / TypeScript
+CSS / Tailwind CSS
+
+## Installation and Setup
+
+Ikuti langkah-langkah berikut untuk menjalankan Travora secara lokal.
+
+**1. Clone Repository**
+
+bash
+git clone <repository-url>
+
+**2. Navigate to Project Directory**
+
+bash
+cd travora
+
+**3. Install Dependencies**
+
+bash
+npm install
+
+**4. Run Development Server**
+
+bash
+npm run dev
+
+**5. Open in Browser**
+
+Buka alamat lokal berikut pada browser:
+
+bash
+http://localhost:5173
+
+## Our Mission
+
+Travora bertujuan untuk menghadirkan pengalaman perjalanan yang lebih terjangkau dan berkelanjutan melalui kolaborasi antara traveler dan pemilik penginapan.
+
+**Travel More, Spend Less, Give More.**

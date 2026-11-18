@@ -1,22 +1,22 @@
-import React from 'react';
-import { ShieldCheck, Users } from 'lucide-react';
+import React from "react";
+import { ShieldCheck, Users } from "lucide-react";
 
 export const BenefitsSection: React.FC = () => {
   return (
     <section className="py-16 sm:py-20 bg-white">
       <div className="max-w-[1380px] mx-auto px-4 sm:px-8 lg:px-12">
-        
-        {/* Section Heading with Blue Pill Accent Bar */}
-        <div data-reveal="up" className="text-center mb-10 sm:mb-12">
+        {/* Section Heading tanpa garis biru dan margin bottom 62px */}
+        <div data-reveal="up" className="text-center mb-[62px]">
           <h2 className="text-[#000] text-center font-sans text-[32px] sm:text-[40px] font-bold leading-[44px] sm:leading-[56px] tracking-tight">
             Benefit Untuk Mu!
           </h2>
-          <div className="w-14 h-1.5 bg-[#2F80ED] rounded-full mx-auto mt-3" />
         </div>
 
         {/* 3 Landscape / Wider Columns Grid */}
-        <div data-stagger="0.16" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 items-stretch">
-          
+        <div
+          data-stagger="0.16"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 items-stretch"
+        >
           {/* Column 1: GRATIS (Sky & meadow background, landscape proportion, white card bottom-left) */}
           <div className="relative rounded-[26px] sm:rounded-[28px] overflow-hidden min-h-[290px] sm:min-h-[310px] lg:h-[320px] p-4 sm:p-5 flex flex-col justify-end group shadow-sm hover:shadow-md transition-all duration-300">
             <img
@@ -24,7 +24,7 @@ export const BenefitsSection: React.FC = () => {
               alt="Langit Biru dan Awan Putih"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            
+
             {/* White floating container matching reference image */}
             <div className="relative z-10 bg-white rounded-2xl p-4 sm:p-5 shadow-sm max-w-[92%] sm:max-w-[90%]">
               <h3 className="text-xl sm:text-2xl font-bold text-black tracking-tight">
@@ -77,14 +77,14 @@ export const BenefitsSection: React.FC = () => {
             {/* Bottom part: Testimonial quote matching exact text */}
             <div>
               <p className="text-xs sm:text-[13px] text-neutral-800 leading-snug font-normal">
-                “Tempat yang sangat nyaman di tempati dengan pelayanan yang sangat baik dan bersih. Saya sangat merekomendasikan!”
+                “Tempat yang sangat nyaman di tempati dengan pelayanan yang
+                sangat baik dan bersih. Saya sangat merekomendasikan!”
               </p>
             </div>
           </div>
 
           {/* Column 3: Stacked Blue and Black Cards with Vertical Divider and Icons */}
           <div className="flex flex-col gap-4 justify-between min-h-[290px] sm:min-h-[310px] lg:h-[320px]">
-            
             {/* Top Card: BERSIH DAN ASRI (Vibrant Blue Card with ShieldCheck icon) */}
             <div className="bg-[#2F80ED] text-white rounded-[22px] sm:rounded-[24px] p-5 sm:p-6 shadow-sm hover:shadow-md transition-all duration-300 flex-1 flex items-center gap-4 sm:gap-5">
               <div className="w-12 sm:w-14 flex items-center justify-center shrink-0">
@@ -100,7 +100,8 @@ export const BenefitsSection: React.FC = () => {
                   BERSIH DAN ASRI
                 </h3>
                 <p className="text-[11px] sm:text-xs text-white/90 leading-snug mt-1 font-light">
-                  Tanah kami sangat terawat dan menjadi tempat yang bersih serta asri untuk kamu dan keluarga.
+                  Tanah kami sangat terawat dan menjadi tempat yang bersih serta
+                  asri untuk kamu dan keluarga.
                 </p>
               </div>
             </div>
@@ -124,9 +125,7 @@ export const BenefitsSection: React.FC = () => {
                 </p>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
